@@ -24,4 +24,3 @@ if (jumlahyes >=3) :
     print("Kamu lolos menjadi calon suami")
 else:
     print("Kamu tidak lolos menjadi calon suami")
-
