@@ -3,6 +3,5 @@ sentence =  '''Tim Hukum KPK meminta penundaan sidang praperadilan jilid II Sekj
 sentence_split = sentence.split(",")
 short_sentence = ' '.join(sentence_split[:6])
 
-
 print(sentence)
 

@@ -1,5 +1,5 @@
-Sentence = "Penculikan,Pemerkosaan,PerEwean"
-words = Sentence.split(".")
+Sentence = "Penculikan,Pemerkosaan,Pembunuhan"
+words = Sentence.split(",")
 print(words)
 
 def clean_word(word):
@@ -8,4 +8,4 @@ def clean_word(word):
 cleaned_words = list(map(clean_word, words))
 print(cleaned_words)
 
-print(".".join(cleaned_words))
+print(",".join(cleaned_words))
