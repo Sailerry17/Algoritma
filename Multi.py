@@ -6,6 +6,7 @@ if angka % 2 == 0:
     
 print("%s adalah bilangan %s" % (angka, jenis))
 
+#Multi
 nilai = int(input("Masukkan nilai:"))
 grade = "E"
 
