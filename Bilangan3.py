@@ -17,5 +17,5 @@ number3 = float(input("Enter the third number: "))
 # Find the largest number
 largest_number = find_largest(number1, number2, number3)
 
-# Display the largest number
+
 print("The largest number is:", largest_number)

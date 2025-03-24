@@ -1,3 +1,4 @@
+import random
 def get_computer_choice():
     choices = ["batu", "gunting", "kertas"]
     return random.choice(choices)
