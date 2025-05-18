@@ -5,7 +5,7 @@ def login_system():
     if username == "admin" and password == "admin123":
         print("Access granted: Admin")
     elif username == "user" and password == "user123":
-        print("Access granted: Limited")
+        print("Access granted: Limited") 
     elif username == "guest":
         print("Access granted: Minimal")
     else:

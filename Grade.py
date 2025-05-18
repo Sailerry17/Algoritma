@@ -1,6 +1,3 @@
-# Program to determine grade based on exam score
-
-# Function to determine grade
 def determine_grade(score):
     if 80 <= score <= 100:
         return 'A'
